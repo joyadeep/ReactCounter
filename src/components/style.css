@@ -13,28 +13,45 @@
     color: rgb(165, 70, 255);
     font-weight: 700;
 }
-.maincontainer
+.container
 {
-    background-color: rgb(255, 189, 6);
-    color: rgb(255, 255, 255);
-    margin-top: 40px;
-    /* border: 2px solid; */
+    width:20rem ;
+    margin-top: 4rem;
+    background-color: rgb(108, 186, 218);
     border-radius: 9px;
-    overflow-y: scroll;
-    height: 15rem;
+    color: white;
 }
 
-.question
+.num
 {
-    font-size: 1.3rem;
-    /* font-weight: 700; */
+    font-size: 3rem;
+    transform: scale(1,1.5);
+    /* line-height: 4rem;
+    text-height: 4rem; */
+    /* border: 2px solid red; */
+   text-align: center;
 }
-.answer
-{
-    font-size: 1rem;
-    color: indigo;
-    margin-bottom: 20px;
 
+.buttons
+{
+    /* border: 2px solid red; */
+    display: flex;
+    /* width: 5rem; */
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.add, .sub
+{
+    cursor: pointer;
+    /* border: 2px solid; */
+    width:3rem ;
+    font-size: 1.5rem;
+}
+.add{
+    /* justify-content: flex-start; */
+    margin-right:2rem ;
 }
 
 
@@ -46,10 +63,10 @@
     font-size: 1.5rem;
    
 }
-.accordian
+/* .accordian
 {
     border-bottom: 2px solid rgb(218, 212, 212);
-}
+} */
 .author
 {
     color: red;

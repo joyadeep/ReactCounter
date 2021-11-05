@@ -6,7 +6,7 @@ const Header = () => {
     <div className="container-fluid">
      <div className='row'>
          <div className='col-md-12 title text-center'>
-            Accordian
+            Counter
          </div>
      </div>
     </div>
